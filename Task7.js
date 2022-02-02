@@ -1,3 +1,5 @@
+`use strict`
+
 //tutorial stuff
 
 let x = myFunc(4, 3);
