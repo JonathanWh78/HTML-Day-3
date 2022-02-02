@@ -16,18 +16,22 @@ function add (num1, num2)
     disp(ans);
 }
 
+//subtract
 function sub (num1, num2)
 {
     let ans = 0;
     ans = +num1 - +num2;
     disp(ans);
 }
+
+//divide
 function div (num1, num2)
 {
     let ans = 0;
     ans = +num1 / +num2;
     disp(ans);
 }
+//multiply
 function mult (num1, num2)
 {
     let ans = 0;
