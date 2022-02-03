@@ -13,6 +13,7 @@ DOM.btnDiv.onclick = () => div(DOM.inputOne.value, DOM.inputTwo.value);
 DOM.btnMult.onclick = () => mult(DOM.inputOne.value, DOM.inputTwo.value);
 DOM.btnEql.onclick = () => disp(calculation.inputOne,calculation.inputTwo,calculation.type, calculation.result);
 DOM.btnClear.onclick = () => clear();
+//DOM.btnClear.onclick = clear;
 //Add
 function add (num1, num2)
 {
@@ -62,5 +63,6 @@ function clear()
 {
     DOM.inputOne.value = "";
     DOM.inputTwo.value = "";
-    document.getElementById("list_output").innerHTML = "";
+    //document.getElementById("list_output").innerHTML = "";
+    DOM.output.innerHTML = "";
 }
